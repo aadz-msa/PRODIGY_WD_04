@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhithya Mahesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>AM<span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+        <div class="hero-container">
+            <div class="hero-content reveal-up">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for freelance work
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm
+                    <span class="hero-name-highlight">Aadhithya Mahesh</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role-tag">Web Developer</span>
+                    <span class="role-divider">&bull;</span>
+                    <span class="role-tag">Game Developer</span>
+                    <span class="role-divider">&bull;</span>
+                    <span class="role-tag">CSE Student</span>
+                </div>
+                <p class="hero-description">
+                    I craft immersive digital experiences through clean code,
+                    creative design, and cutting-edge technology. Turning ideas into
+                    pixel-perfect reality.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Let's Talk</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15">0</span>+
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5">0</span>+
+                        <span class="stat-label">Hackathons</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="3">0</span>+
+                        <span class="stat-label">Internships</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual reveal-up" style="animation-delay: 0.2s;">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-ring"></div>
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-image-container">
+                        <img src="profile.jpg" alt="Aadhithya Mahesh">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fa-brands fa-unity"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal-up">
+                    <p class="about-intro">
+                        I'm a passionate <strong>Computer Science &amp; Engineering</strong> student
+                        with a love for building things that live on the internet. I specialize in
+                        crafting modern web experiences and interactive games that make an impact.
+                    </p>
+                    <p>
+                        My journey in tech started with curiosity about how websites work, and it
+                        has evolved into a full-blown passion for development, design, and
+                        problem-solving. I believe in writing clean, efficient code and creating
+                        experiences that users love.
+                    </p>
+                </div>
+                <div class="about-cards reveal-up" style="animation-delay: 0.15s;">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="about-card-content">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science &amp; Engineering</p>
+                            <span class="about-card-meta">Currently Pursuing</span>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="about-card-content">
+                            <h3>Experience</h3>
+                            <p>Web Development &amp; Game Development</p>
+                            <span class="about-card-meta">Multiple Internships</span>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="about-card-content">
+                            <h3>Interests</h3>
+                            <p>UI/UX Design, AI/ML, Open Source</p>
+                            <span class="about-card-meta">Always Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">What I work with</span>
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category reveal-up">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <div class="skill-pill"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-react"></i><span>React</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-database"></i><span>MongoDB</span></div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up" style="animation-delay: 0.1s;">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <div class="skill-pill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-c"></i><span>C / C++</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-hashtag"></i><span>C#</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-code"></i><span>DSA</span></div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up" style="animation-delay: 0.2s;">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-wrench"></i></div>
+                        <h3>Tools &amp; Platforms</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <div class="skill-pill"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-unity"></i><span>Unity</span></div>
+                        <div class="skill-pill"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-cloud"></i><span>Firebase</span></div>
+                    </div>
+                </div>
+                <div class="skill-category reveal-up" style="animation-delay: 0.3s;">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fa-solid fa-palette"></i></div>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <div class="skill-pill"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-pen-nib"></i><span>Canva</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Adobe XD</span></div>
+                        <div class="skill-pill"><i class="fa-solid fa-film"></i><span>After Effects</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">My recent work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal-up">
+                    <div class="project-image">
+                        <div class="project-image-placeholder"><i class="fa-solid fa-globe"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-icon" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce web application with user authentication, product management, and payment integration.</p>
+                        <a href="#" class="project-btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up" style="animation-delay: 0.1s;">
+                    <div class="project-image">
+                        <div class="project-image-placeholder"><i class="fa-solid fa-gamepad"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-icon" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span>Unity</span><span>C#</span><span>3D</span></div>
+                        <h3>3D Adventure Game</h3>
+                        <p>An immersive 3D adventure game built in Unity with custom physics, AI enemies, and dynamic level generation.</p>
+                        <a href="#" class="project-btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up" style="animation-delay: 0.2s;">
+                    <div class="project-image">
+                        <div class="project-image-placeholder"><i class="fa-solid fa-robot"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-icon" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span>Python</span><span>TensorFlow</span><span>API</span></div>
+                        <h3>AI Chatbot Assistant</h3>
+                        <p>An intelligent chatbot powered by NLP that can answer questions, summarize text, and assist with daily tasks.</p>
+                        <a href="#" class="project-btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up" style="animation-delay: 0.3s;">
+                    <div class="project-image">
+                        <div class="project-image-placeholder"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-icon" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" class="project-link-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags"><span>HTML/CSS</span><span>JavaScript</span><span>Firebase</span></div>
+                        <h3>Task Management App</h3>
+                        <p>A sleek task management web app with real-time sync, drag-and-drop, and collaborative workspace features.</p>
+                        <a href="#" class="project-btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Milestones &amp; Impact</span>
+                <h2 class="section-title">Achievements &amp; Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Hackathon Winner</h3>
+                        <p>Won first place at a national-level hackathon, building an innovative solution for smart campus management in under 24 hours.</p>
+                        <div class="timeline-tags"><span>Competition</span><span>Innovation</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" style="animation-delay: 0.1s;">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h3>Web Development Intern</h3>
+                        <p>Worked on real-world projects, building responsive web applications and collaborating with cross-functional teams using agile methodologies.</p>
+                        <div class="timeline-tags"><span>Internship</span><span>React</span><span>Node.js</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" style="animation-delay: 0.2s;">
+                    <div class="timeline-dot"><i class="fa-solid fa-microphone"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>Tech Podcast Host</h3>
+                        <p>Hosted and delivered technical podcasts covering web development trends, career guidance, and emerging technologies to a growing audience.</p>
+                        <div class="timeline-tags"><span>Podcast</span><span>Community</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" style="animation-delay: 0.3s;">
+                    <div class="timeline-dot"><i class="fa-solid fa-users"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3>Community Lead &amp; Campus Ambassador</h3>
+                        <p>Led coding communities and campus tech campaigns, organizing workshops, bootcamps, and hackathons to foster a culture of innovation.</p>
+                        <div class="timeline-tags"><span>Leadership</span><span>Community</span><span>Events</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Get in touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-wrapper reveal-up">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        Have a project idea, collaboration opportunity, or just want to say hello?
+                        I'd love to hear from you. Let's create something amazing together.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:aadhithya@example.com" class="contact-method">
+                            <div class="contact-method-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-method-label">Email</span>
+                                <span class="contact-method-value">aadhithya@example.com</span>
+                            </div>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <div class="contact-method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <span class="contact-method-label">Location</span>
+                                <span class="contact-method-value">India</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>AM<span class="logo-bracket">/&gt;</span>
+                </a>
+                <nav class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aadhithya Mahesh. Crafted with passion &amp; code.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</body>
+</html>
